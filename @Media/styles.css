@@ -1,0 +1,24 @@
+.t{ height: 200px;
+width: 200px; 
+background-color: red;
+color:red;
+display: flex;
+
+/}
+@media screen and (max-width:500px) and (min-width:100px) { 
+    .t{ 
+         
+        height:300px;
+    background-color: blue;
+    transition-duration: 1s;
+    rotate: 90deg;
+    
+}
+}
+@media screen and (max-width:500px) {
+ body{ background-color: black;
+transition-duration: 1s;}}
+
+
+
+
